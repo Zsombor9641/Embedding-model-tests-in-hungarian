@@ -33,7 +33,7 @@ data = {
         "build_time": 14.35,
         "search_time": 8.18
     },
-    "SentenceTransformer Multilingual": {
+    "paraphrase-multilingual-MiniLM-L12-v2": {
         "mrr": 0.84,
         "recall_at_1": 0.78,
         "recall_at_3": 0.92,
@@ -490,4 +490,4 @@ if __name__ == "__main__":
     # Run the comprehensive analysis
     #create_comprehensive_report()
 
-    plot_3_timing_breakdown()
+    plot_1_performance_vs_speed()
