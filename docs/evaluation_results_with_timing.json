@@ -1,0 +1,137 @@
+{
+  "evaluation_metadata": {
+    "total_evaluation_time": 92.7556631565094,
+    "models_tested": 7,
+    "timestamp": "2025-08-24 16:35:24"
+  },
+  "results": {
+    "HuBERT Hungarian": {
+      "mrr": 0.48,
+      "recall_at_1": 0.38,
+      "recall_at_3": 0.6
+    },
+    "BGE-M3": {
+      "mrr": 0.9033333333333333,
+      "recall_at_1": 0.86,
+      "recall_at_3": 0.96
+    },
+    "SentenceTransformer Multilingual": {
+      "mrr": 0.84,
+      "recall_at_1": 0.78,
+      "recall_at_3": 0.92
+    },
+    "OpenAI Ada-002": {
+      "mrr": 0.8,
+      "recall_at_1": 0.72,
+      "recall_at_3": 0.9
+    },
+    "OpenAI 3-Small": {
+      "mrr": 0.8066666666666668,
+      "recall_at_1": 0.7,
+      "recall_at_3": 0.94
+    },
+    "Ollama Nomic": {
+      "mrr": 0.71,
+      "recall_at_1": 0.64,
+      "recall_at_3": 0.8
+    },
+    "Ollama MiniLM": {
+      "mrr": 0.59,
+      "recall_at_1": 0.46,
+      "recall_at_3": 0.74
+    }
+  },
+  "timing": {
+    "HuBERT Hungarian": {
+      "total_time": 5.8865721225738525,
+      "build_time": 3.1475205421447754,
+      "embedding_generation_time": 2.7438011169433594,
+      "collection_setup_time": 0.403719425201416,
+      "search_phase_time": 2.7303576469421387,
+      "total_query_embedding_time": 2.556338310241699,
+      "total_search_time": 0.16547894477844238,
+      "avg_query_embedding_time": 0.05112676620483399,
+      "avg_search_time": 0.0033095788955688475,
+      "avg_total_per_query": 0.05443634510040283,
+      "queries_per_second": 18.312619248250297
+    },
+    "BGE-M3": {
+      "total_time": 22.53161311149597,
+      "build_time": 14.34757685661316,
+      "embedding_generation_time": 14.21951961517334,
+      "collection_setup_time": 0.12805724143981934,
+      "search_phase_time": 8.180520296096802,
+      "total_query_embedding_time": 8.037744998931885,
+      "total_search_time": 0.13575530052185059,
+      "avg_query_embedding_time": 0.1607548999786377,
+      "avg_search_time": 0.0027151060104370116,
+      "avg_total_per_query": 0.1634700059890747,
+      "queries_per_second": 6.112080673384145
+    },
+    "SentenceTransformer Multilingual": {
+      "total_time": 2.407364845275879,
+      "build_time": 1.1557352542877197,
+      "embedding_generation_time": 1.0606930255889893,
+      "collection_setup_time": 0.09504222869873047,
+      "search_phase_time": 1.248610258102417,
+      "total_query_embedding_time": 1.1268062591552734,
+      "total_search_time": 0.11378002166748047,
+      "avg_query_embedding_time": 0.02253612518310547,
+      "avg_search_time": 0.0022756004333496093,
+      "avg_total_per_query": 0.024811725616455078,
+      "queries_per_second": 40.044521239147755
+    },
+    "OpenAI Ada-002": {
+      "total_time": 16.542068243026733,
+      "build_time": 0.9200098514556885,
+      "embedding_generation_time": 0.8250360488891602,
+      "collection_setup_time": 0.09497380256652832,
+      "search_phase_time": 15.6200590133667,
+      "total_query_embedding_time": 15.389343738555908,
+      "total_search_time": 0.224196195602417,
+      "avg_query_embedding_time": 0.30778687477111816,
+      "avg_search_time": 0.0044839239120483395,
+      "avg_total_per_query": 0.3122707986831665,
+      "queries_per_second": 3.2010122341543674
+    },
+    "OpenAI 3-Small": {
+      "total_time": 17.713268756866455,
+      "build_time": 0.867671012878418,
+      "embedding_generation_time": 0.7833819389343262,
+      "collection_setup_time": 0.0842890739440918,
+      "search_phase_time": 16.84157967567444,
+      "total_query_embedding_time": 16.582095623016357,
+      "total_search_time": 0.25344252586364746,
+      "avg_query_embedding_time": 0.33164191246032715,
+      "avg_search_time": 0.005068850517272949,
+      "avg_total_per_query": 0.3367107629776001,
+      "queries_per_second": 2.9688426479505816
+    },
+    "Ollama Nomic": {
+      "total_time": 10.51610279083252,
+      "build_time": 7.424242734909058,
+      "embedding_generation_time": 7.355475664138794,
+      "collection_setup_time": 0.06876707077026367,
+      "search_phase_time": 3.0858049392700195,
+      "total_query_embedding_time": 2.9757285118103027,
+      "total_search_time": 0.10707759857177734,
+      "avg_query_embedding_time": 0.05951457023620606,
+      "avg_search_time": 0.002141551971435547,
+      "avg_total_per_query": 0.0616561222076416,
+      "queries_per_second": 16.203227677711876
+    },
+    "Ollama MiniLM": {
+      "total_time": 3.746769905090332,
+      "build_time": 2.247593641281128,
+      "embedding_generation_time": 2.172410011291504,
+      "collection_setup_time": 0.07518362998962402,
+      "search_phase_time": 1.4976253509521484,
+      "total_query_embedding_time": 1.315917730331421,
+      "total_search_time": 0.1806333065032959,
+      "avg_query_embedding_time": 0.026318354606628416,
+      "avg_search_time": 0.003612666130065918,
+      "avg_total_per_query": 0.029931020736694337,
+      "queries_per_second": 33.3861869847565
+    }
+  }
+}

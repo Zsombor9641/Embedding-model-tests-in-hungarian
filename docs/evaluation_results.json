@@ -1,0 +1,37 @@
+{
+  "HuBERT Hungarian": {
+    "mrr": 0.48,
+    "recall_at_1": 0.38,
+    "recall_at_3": 0.6
+  },
+  "BGE-M3": {
+    "mrr": 0.9033333333333333,
+    "recall_at_1": 0.86,
+    "recall_at_3": 0.96
+  },
+  "SentenceTransformer Multilingual": {
+    "mrr": 0.84,
+    "recall_at_1": 0.78,
+    "recall_at_3": 0.92
+  },
+  "OpenAI Ada-002": {
+    "mrr": 0.8,
+    "recall_at_1": 0.72,
+    "recall_at_3": 0.9
+  },
+  "OpenAI 3-Small": {
+    "mrr": 0.8166666666666668,
+    "recall_at_1": 0.72,
+    "recall_at_3": 0.94
+  },
+  "Ollama Nomic": {
+    "mrr": 0.71,
+    "recall_at_1": 0.64,
+    "recall_at_3": 0.8
+  },
+  "Ollama MiniLM": {
+    "mrr": 0.59,
+    "recall_at_1": 0.46,
+    "recall_at_3": 0.74
+  }
+}
